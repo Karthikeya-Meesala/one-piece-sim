@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/old-paper.webp');
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-shadow: 2px;
+    margin-bottom: 5px;
+  }
+  
+canvas {
+    border: 2px solid black;
+    background-color: bisque;
+  }
+  
+  
+  div {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  div img {
+    width: 120px;
+    height: auto;
+  }
+
+input[type="range"] {
+    width: 80px;
+    max-width: 120px;
+    margin: 20px 0;
+  }
+
+button {
+    width: 48px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    div {
+      font-size: 24px;
+    }
+  
+    div img {
+      width: 54px;
+    }
+  }
+  
