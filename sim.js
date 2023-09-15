@@ -14,9 +14,9 @@ const rockImage = new Image();
 const paperImage = new Image();
 const scissorsImage = new Image();
 
-rockImage.src = "/assets/luffy.png";
-paperImage.src = "/assets/mihawk.png";
-scissorsImage.src = "/assets/buggy.png";
+rockImage.src = "assets/luffy.png";
+paperImage.src = "assets/mihawk.png";
+scissorsImage.src = "assets/buggy.png";
 
 const images = {
   rock: rockImage,
