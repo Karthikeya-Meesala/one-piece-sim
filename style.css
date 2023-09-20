@@ -53,6 +53,14 @@ button {
     border: 1px solid black;
     border-radius: 3px;
 }
+
+#win {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: 320px;
+  height: auto;
+  margin: 2px 0px;
+}
   
   
   @media (max-width: 768px) {
